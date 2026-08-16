@@ -1,18 +1,41 @@
-/*Elements*/
+/*
+  background-image: url("img_tree.gif"), url("paper.gif");
+  background-color: #cccccc;
+*/
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin:0;                   /* Removes default browser spacing */
+    color: #ffffff;              /* Text Color */
+    padding: 20px;
+}
+.main_content {
+  background-color: #393939;
+  width:600px;
+  margin:auto;
+}
+
 h1 {
-  color: blue;
-  font-family: Arial;
-  
+    color: #ffffff;            
+    font-size: 2.5rem;           /* Sets font size relative to root size */
+    border-bottom: 2px solid #ff00c8; /* Solid line under the heading */
+    padding: 20px;
+    padding-bottom: 10px;        /* Spacing above the underline */
+}
+h2 {
+    color: #ffffff;            
+    font-size: 1.5rem;           /* Sets font size relative to root size */
+    padding: 20px;
+    padding-bottom: 10px;        /* Spacing above the underline */
 }
 p {
-  color: red;
-  font-family: Arial;
-  
+
+  padding: 20px;
 }
-body {
-    background-color: #f4f4f9;   /* Light gray background color */
-    font-family: Arial, sans-serif; /* Clean font choices */
-    margin: 0;                   /* Removes default browser spacing */
-    padding: 20px;               /* Adds internal breathing room */
-    color: #333333;              /* Dark gray text for better readability */
+
+iframe {
+  width : 560px; 
+  height : 315px;
+  margin : auto;
+  padding: 20px;
 }
