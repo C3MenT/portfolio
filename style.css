@@ -1,23 +1,18 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
+/*Elements*/
 h1 {
   color: blue;
-  font-family: courier;
+  font-family: Arial;
   
 }
 p {
   color: red;
-  font-family: courier;
+  font-family: Arial;
   
 }
-</style>
-</head>
-<body>
-
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
-
-</body>
-</html>
+body {
+    background-color: #f4f4f9;   /* Light gray background color */
+    font-family: Arial, sans-serif; /* Clean font choices */
+    margin: 0;                   /* Removes default browser spacing */
+    padding: 20px;               /* Adds internal breathing room */
+    color: #333333;              /* Dark gray text for better readability */
+}
