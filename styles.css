@@ -8,11 +8,57 @@ body {
     margin:0;                   /* Removes default browser spacing */
     color: #ffffff;              /* Text Color */
     padding: 20px;
+    background-image: url("")
 }
 .main_content {
   background-color: #393939;
   width:600px;
   margin:auto;
+}
+.sub_content {
+  display: grid;
+  place-items: center;
+  padding: 20px;
+}
+.top-bar {
+  display: flex;
+  justify-content: center; /* Links fill the bar, pushing to the far left and right */
+  list-style: none;
+  padding: 20px;
+  gap: 20px;
+}
+.bar-elem {
+  background-color: #393939;
+  border-radius: 2px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.bar-elem:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 10px 20px rgba(255, 0, 170, 0.447);
+  background-color: #ff00c8;
+}
+
+.elem_link {
+   color: #ffffff;
+   text-decoration: none;
+}
+.standalone_link {
+  color: #000000;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 2px;
+  padding: 30px;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.standalone_link:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 10px 20px rgba(255, 0, 170, 0.447);
+  background-color: #ff00c8;
+}
+.discrete-list  {
+  list-style: none;
 }
 
 h1 {
@@ -26,16 +72,13 @@ h2 {
     color: #ffffff;            
     font-size: 1.5rem;           /* Sets font size relative to root size */
     padding: 20px;
-    padding-bottom: 10px;        /* Spacing above the underline */
 }
 p {
-
   padding: 20px;
 }
 
 iframe {
   width : 560px; 
   height : 315px;
-  margin : auto;
-  padding: 20px;
+  border : 2px solid #ff00c8
 }
