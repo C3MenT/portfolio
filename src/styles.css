@@ -83,8 +83,23 @@ h2 {
     font-size: 1.5rem;           /* Sets font size relative to root size */
     padding: 20px;
 }
+.responsive_h2 {
+  transition: color 0.3s ease;
+}
+.responsive_h2:hover {
+  color: #ff00c8;
+}
 p {
   padding: 20px;
+}
+.common_paragrah {
+  text-indent: 30px;
+  border-radius: 4px;
+  background-color: #393939;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.common_paragrah:hover {
+  transform: translateY(-3px) scale(1.02);
 }
 
 iframe {
